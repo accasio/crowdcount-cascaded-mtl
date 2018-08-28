@@ -56,7 +56,7 @@ for blob in data_loader:
         
 mae = mae/data_loader.get_num_samples()
 mse = np.sqrt(mse/data_loader.get_num_samples())
-print 'MAE: %0.2f, MSE: %0.2f' % (mae,mse)
+print('MAE: %0.2f, MSE: %0.2f' % (mae,mse))
 
 f = open(file_results, 'w') 
 f.write('MAE: %0.2f, MSE: %0.2f' % (mae,mse))
