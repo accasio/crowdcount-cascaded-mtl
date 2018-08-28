@@ -99,7 +99,7 @@ re_cnt = False
 t = Timer()
 t.tic()
 
-best_mae = sys.maxint
+best_mae = sys.maxsize
 
 for epoch in range(start_step, end_step+1):    
     step = -1
